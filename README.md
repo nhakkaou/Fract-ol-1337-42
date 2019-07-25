@@ -10,8 +10,6 @@ Multiple fractals : Mandelbrot, Julia, BurningShip, Tricorn. Without Using pthre
 # how tou use:
 ```
 make
-```
-```
 ./fractol "chose fractals"
 ```
 ## License
