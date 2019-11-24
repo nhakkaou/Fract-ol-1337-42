@@ -15,7 +15,11 @@
 static void	mandel1(t_ml *p, int i, int j)
 {
 	int o;
+	t_rgb	c;
 
+	c.r = 255;
+	c.g = 255;
+	c.b = 0;
 	o = 0;
 	while (p->z_r * p->z_r + p->z_i * p->z_i < 4 && o < p->iteration)
 	{
@@ -25,7 +29,7 @@ static void	mandel1(t_ml *p, int i, int j)
 		o++;
 	}
 	if (o < p->iteration)
-		p->data[j * W + i] = 0x140A58 + (o * 1248518);
+		p->data[j * W + i] = get_color(p->iteration, o, c, 1);
 }
 
 void		mandel(t_ml *p)

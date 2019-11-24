@@ -52,7 +52,12 @@ typedef struct		s_ml
 	int			sym;
 	int			mousewheel;
 }					t_ml;
-
+typedef struct		s_rgb
+{
+	int			r;
+	int			g;
+	int			b;
+}					t_rgb;
 void				mandelbrot(t_ml *p);
 void				ship(t_ml *p);
 void				julia(t_ml *p);
@@ -76,5 +81,6 @@ void				intialiser_re_im(t_ml *p);
 void				fract(t_ml *p, int key);
 void				lets_go(t_ml *p);
 void				ft_itir(int key, t_ml *p);
+int					get_color(int l, int nb, t_rgb c, int m);
 
 #endif
