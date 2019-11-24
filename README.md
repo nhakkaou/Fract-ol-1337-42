@@ -16,4 +16,4 @@ make
 
 This project is licensed under the MIT License .
 
-![Alt text](mandel.jpg?raw=true "Mandelbrot")
+![Alt text](mandel.png?raw=true "Mandelbrot")
