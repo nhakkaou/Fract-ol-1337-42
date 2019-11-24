@@ -15,3 +15,5 @@ make
 ## License
 
 This project is licensed under the MIT License .
+
+![Alt text](mandel.jpg?raw=true "Mandelbrot")
